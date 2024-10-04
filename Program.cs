@@ -12,7 +12,9 @@ namespace WindowsFormsApp1
             //Console.WriteLine("Enter the x and y dimensions of the shell");
             //Console.WriteLine("Enter the initial x and y velocities for 1 ball, radius and mass through space in one line");
             //Console.WriteLine("Enter the initial x and y velocities for 2 balls, radius and mass through space in one line");
-
+            //         X Y Vx1 Vy1 R1 M1 Vx2 Vy2 R2 M2
+            // test 1: 1000 400 5 3 20 2 -4 2 30 4
+            // test 2: 1000 600 10 3 30 20 -9 2 10 4
             var arguments = args.Select(float.Parse).ToArray();
             
             var size = new float[2];

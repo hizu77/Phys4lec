@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
             _ball2 = new Ball(400, 200, secondBall[2], secondBall[0], secondBall[1], secondBall[3]);
 
             _timer = new Timer();
-            _timer.Interval = 20;
+            _timer.Interval = 15;
             _timer.Tick += UpdateSimulation;
             _timer.Start();
         }
